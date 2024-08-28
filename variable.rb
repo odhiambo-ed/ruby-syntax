@@ -19,3 +19,11 @@ puts my_data.class
 my_data.each do |n|
   puts n
 end
+
+#Hash
+a = {:name => "John"}
+puts a.class
+
+#Symbol
+a = {:name => "Mike"}
+puts :name.class
