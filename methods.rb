@@ -20,8 +20,16 @@ puts sum  # This will output 7
 # You can call a block within a method using the yield keyword.
 # 
 
-def great
+def greet
   yield if block_given?
 end
 
-great {puts "Hello Jesus my Lord"}
+greet {puts "Hello Jesus my Lord"}
+
+# You can also pass parameters to the block
+# 
+def greet_two
+  yield ("Jesus") if block_given?
+end
+
+greet_two { |name| puts "#{name} in You I trust"}
