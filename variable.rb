@@ -27,3 +27,11 @@ puts a.class
 #Symbol
 a = {:name => "Mike"}
 puts :name.class
+
+# To Array
+a = (1..10).to_a
+puts a
+
+fruits = ["cherry", "apples", "oranges", "bananas"]
+
+puts fruits
