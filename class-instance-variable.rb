@@ -1,3 +1,8 @@
+# Instance Variables and Methods
+# Instance variables are variables that belong to an instance of a class. 
+# Methods are functions defined within a class.
+
+
 class Person
   # Define the initialize method to set up initial state
   def initialize(name, age)
