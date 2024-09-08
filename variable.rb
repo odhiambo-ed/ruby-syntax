@@ -6,11 +6,13 @@ puts hello.class
 money = 1000
 price = 100.25
 puts price.class
+puts money.class
 
 # booleans
 true_val  = true
 false_val = false  
 puts true_val.class
+puts false_val.class
 
 # Array
 my_data = [1, 2, 3, 4]
